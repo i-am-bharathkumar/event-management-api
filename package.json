@@ -10,20 +10,27 @@
     "setup-db": "node scripts/setup-database.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "pg": "^8.11.0",
-    "dotenv": "^16.0.3",
-    "joi": "^17.9.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-rate-limit": "^6.7.0",
     "helmet": "^7.0.0",
-    "express-rate-limit": "^6.7.0"
+    "joi": "^17.9.2",
+    "pg": "^8.16.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.22",
     "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
     "supertest": "^6.3.3"
   },
-  "keywords": ["event", "management", "api", "nodejs", "express", "postgresql"],
+  "keywords": [
+    "event",
+    "management",
+    "api",
+    "nodejs",
+    "express",
+    "postgresql"
+  ],
   "author": "Your Name",
   "license": "MIT"
 }
