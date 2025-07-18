@@ -1,8 +1,3 @@
-Here’s your `README.md` file for the **Event Count API** project:
-
----
-
-```markdown
 # 📊 Event Count API
 
 A simple Node.js + Express + PostgreSQL API that accepts a **User ID** and returns the **number of events the user has registered for in the past month**.
